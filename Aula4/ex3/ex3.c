@@ -14,13 +14,13 @@ int main(){
 
     tam = strlen(palavra);
 
-    for(i=0, j = tam-1; i<j; i++, j-- ){
+    for(i=0, j = tam-1; i<j; i++, j--){
 
         if(tolower(palavra[i]) != tolower(palavra[j])){
             palindromo = 0;
             break;
         }
-
+        
     }
 
     if(palindromo == 0){
